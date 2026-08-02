@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.upside.com
+host: https://www.upside.com
+notes: No /.well-known/ discovery documents are published on the Upside website
+  host. All probes returned 404. Upside publishes no public API host to probe
+  (its partner API is enterprise/private, accessed via partnership agreements).
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

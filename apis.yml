@@ -1,7 +1,26 @@
 aid: upside-services
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upside-services.png
 name: Upside Services
-description: Upside Services is a company surfaced as a portfolio company of dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Upside (Upside Services, Inc.) is a retail technology company whose
+  platform delivers personalized cash-back offers on gas, groceries, and dining
+  to more than five million consumers through the Upside app and embedded partner
+  experiences. Merchants across fuel and convenience, grocery, and restaurants pay
+  only for measured incremental profit, verified against control groups. Upside
+  operates an enterprise partner API used by companies like Fiserv, GasBuddy,
+  Lyft, Uber, and Marqeta to embed offers, but publishes no public developer
+  portal, API documentation, or SDKs - API access is arranged through its
+  partnerships team. Backed by DCVC (first invested 2016).
 url: https://raw.githubusercontent.com/api-evangelist/upside-services/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,68 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Cashback
+- Retail
+- Fuel
+- Grocery
+- Restaurants
+- Loyalty
+- Consumer Incentives
 apis: []
+common:
+- type: TrustCenter
+  url: security/upside-services-trust-center.yml
+- name: Compliance
+  type: Compliance
+  url: https://trust.upside.com/
+- type: DomainSecurity
+  url: security/upside-services-domain-security.yml
+- name: Website
+  type: Website
+  url: https://www.upside.com/
+- name: About
+  type: About
+  url: https://www.upside.com/about
+- name: Blog
+  type: Blog
+  url: https://www.upside.com/blog
+- name: Newsroom
+  type: PressReleases
+  url: https://www.upside.com/newsroom
+- name: Careers
+  type: Careers
+  url: https://www.upside.com/careers
+- name: Support
+  type: Support
+  url: https://support.upside.com/hc/en-us
+- name: Login
+  type: Login
+  url: https://dashboard.upside.com/login
+- name: Terms of Service
+  type: TermsOfService
+  url: https://www.upside.com/data-and-security/terms
+- name: Privacy Policy
+  type: PrivacyPolicy
+  url: https://www.upside.com/data-and-security/privacy-policy
+- name: Partner Tech Integration
+  type: Partners
+  url: https://www.upside.com/partnerships/tech-integration
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/upside-services-llms.txt
+- name: Well-Known Probe Index
+  type: WellKnownProbe
+  url: well-known/upside-services-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

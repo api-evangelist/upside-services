@@ -1,0 +1,28 @@
+# Upside
+
+> Upside (Upside Services, Inc., upside.com) is a retail technology platform that delivers personalized cash-back offers for gas, grocery, and restaurant purchases. Consumers earn cash back through the Upside app and partner apps; merchants pay only for measured incremental profit. Upside's enterprise partner API powers offer delivery inside partner applications (Fiserv, GasBuddy, Lyft, Uber, Marqeta, and others), but the company publishes no public developer portal, API documentation, or SDKs — API access is arranged through its partnerships team.
+
+## Company
+
+- [Website](https://www.upside.com/): Upside home — cash back on gas, groceries, and dining
+- [About](https://www.upside.com/about): Company overview
+- [Newsroom](https://www.upside.com/newsroom): Press and announcements
+- [Blog](https://www.upside.com/blog): Consumer and retailer blog
+- [Careers](https://www.upside.com/careers): Open roles
+
+## Business / Partner surface
+
+- [For business](https://www.upside.com/business): Retailer-facing platform (grocery, fuel and convenience, restaurants)
+- [Strategic partnerships](https://www.upside.com/business/how-it-works/strategic-partnerships): API and co-marketing partnership options
+- [Tech integration](https://www.upside.com/partnerships/tech-integration): Enterprise-ready partner API for embedding personalized offers (no public docs; contact partnerships)
+- [Partner dashboard](https://dashboard.upside.com/login): Merchant/partner login
+
+## Support and legal
+
+- [Help center](https://support.upside.com/hc/en-us): Consumer support
+- [Terms of service](https://www.upside.com/data-and-security/terms)
+- [Privacy policy](https://www.upside.com/data-and-security/privacy-policy)
+
+## Catalog
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/upside-services/refs/heads/main/apis.yml): API Evangelist network profile for Upside Services
