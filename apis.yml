@@ -23,15 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upside-services.png
 name: Upside Services
-description: Upside (Upside Services, Inc.) is a retail technology company whose
-  platform delivers personalized cash-back offers on gas, groceries, and dining
-  to more than five million consumers through the Upside app and embedded partner
-  experiences. Merchants across fuel and convenience, grocery, and restaurants pay
-  only for measured incremental profit, verified against control groups. Upside
-  operates an enterprise partner API used by companies like Fiserv, GasBuddy,
-  Lyft, Uber, and Marqeta to embed offers, but publishes no public developer
-  portal, API documentation, or SDKs - API access is arranged through its
-  partnerships team. Backed by DCVC (first invested 2016).
+description: Upside (Upside Services, Inc.) is a retail technology company whose platform delivers personalized
+  cash-back offers on gas, groceries, and dining to more than five million consumers through the Upside app and
+  embedded partner experiences. Merchants across fuel and convenience, grocery, and restaurants pay only for measured
+  incremental profit, verified against control groups. Upside operates an enterprise partner API used by companies
+  like Fiserv, GasBuddy, Lyft, Uber, and Marqeta to embed offers, but publishes no public developer portal, API
+  documentation, or SDKs - API access is arranged through its partnerships team. Backed by DCVC (first invested
+  2016).
 url: https://raw.githubusercontent.com/api-evangelist/upside-services/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -105,6 +103,8 @@ common:
 - name: Well-Known Probe Index
   type: WellKnownProbe
   url: well-known/upside-services-well-known.yml
+- type: GitHubOrganization
+  url: https://github.com/upside-services
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
