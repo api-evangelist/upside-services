@@ -2,10 +2,12 @@ generated: '2026-07-21'
 method: searched
 source: https://www.upside.com
 host: https://www.upside.com
-notes: No /.well-known/ discovery documents are published on the Upside website
-  host. All probes returned 404. Upside publishes no public API host to probe
-  (its partner API is enterprise/private, accessed via partnership agreements).
-documents:
+notes: No /.well-known/ discovery documents are published on the Upside website host. All probes returned
+  404. Upside publishes no public API host to probe (its partner API is enterprise/private, accessed via
+  partnership agreements).
+hosts:
+- host: https://www.upside.com
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
@@ -16,3 +18,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
