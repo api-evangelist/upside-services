@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Cashback
@@ -60,6 +60,8 @@ tags_raw:
 - Consumer Incentives
 apis: []
 common:
+- url: https://www.upside.com/blog/rss.xml
+  type: BlogRSS
 - type: TrustCenter
   url: security/upside-services-trust-center.yml
 - name: Compliance
